@@ -1,4 +1,4 @@
-The mod contains new PickAxe [Shatterspike] and Repair Tool [Oathbound Hammer]
+This Icarus Mod contains new PickAxe [Shatterspike] and Repair Tool [Oathbound Hammer]
 
 # Shatterspike
 The Forsaken Pickaxe of Icarus
