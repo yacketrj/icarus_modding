@@ -1,10 +1,4 @@
-DarkDants Wicked PickAxe and Hammer
-=====
-Version 0.1
-=====
-Supports all Versions of Icarus
-=====
-Mod contains new PickAxe [Shatterspike] and Repair Tool [Oathbound Hammer]
+This Mod contains new PickAxe [Shatterspike] and Repair Tool [Oathbound Hammer]
 
 Shatterspike
 The Forsaken Pickaxe of Icarus
