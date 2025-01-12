@@ -1,6 +1,6 @@
-#The mod contains new PickAxe [Shatterspike] and Repair Tool [Oathbound Hammer]
+# The mod contains new PickAxe [Shatterspike] and Repair Tool [Oathbound Hammer] #
 
-##H2 Shatterspike
+## Shatterspike ##
 The Forsaken Pickaxe of Icarus
 
 Forged in the heart of an ancient volcanic forge, Shatterspike is no ordinary tool—it is a weapon of legends, whispered of by miners and adventurers alike. The obsidian-black head gleams faintly in the dark, etched with runes that pulse with an eerie, green light, as though alive with an ancient and restless power. Its haft, carved from the petrified branches of the fabled Ironbark tree, is wrapped in sinewy fibers that grip your hands like a second skin.
@@ -23,7 +23,7 @@ This indomitable pickaxe defies the laws of decay and exhaustion: it takes no du
 Legends claim Shatterspike was crafted by a forgotten race who revered the earth as both a giver of life and a crucible of destruction. Now, it lies in the hands of those bold enough to forge it—an artifact of unmatched power, waiting to carve its name into the annals of history.
 
 
-##H2 Oathbound Hammer
+## Oathbound Hammer ##
 The Hammer of Eternal Resolve
 
 Forged in the heart of a forgotten forge and imbued with an ancient, otherworldly power, the Oathbound Hammer stands as a symbol of unyielding strength and unparalleled craftsmanship. This legendary tool can only be crafted by those who have unlocked the secrets of the Stone Pickaxe, a rite of passage for any adventurer daring to wield such a mighty artifact.
