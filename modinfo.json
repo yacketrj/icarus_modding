@@ -1,0 +1,17 @@
+{
+  "mods": [
+    {
+      "name": "DarkDants Wicked PickAxe and Hammer",
+      "author": "DarkDante",
+      "version": "1.0",
+      "week": "",
+      "compatibility": "ALL",
+      "description": "Mod contains new PickAxe [Shatterspike] and Repair Tool [Oathbound Hammer]",
+      "imageURL": "",
+      "readmeURL": "DarkDants Wicked PickAxe and Hammer.txt",
+      "files": {
+          "exmodz": "DarkDants Wicked PickAxe and Hammer.EXMODZ"
+      }
+    }
+   ]
+ }
