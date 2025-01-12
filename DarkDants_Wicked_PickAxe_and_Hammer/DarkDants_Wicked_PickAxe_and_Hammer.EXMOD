@@ -1,0 +1,494 @@
+{
+    "name": "DarkDants_Wicked_PickAxe_and_Hammer",
+    "author": "Unknown",
+    "version": "0.1",
+    "week": "",
+    "fileName": "DarkDants_Wicked_PickAxe_and_Hammer",
+    "imageURL": "",
+    "readmeURL": "https://github.com/yacketrj/icarus_modding/blob/main/DarkDants_Wicked_PickAxe_and_Hammer/Readme.txt",
+    "description": "The mod contains new PickAxe [Shatterspike] and Repair Tool [Oathbound Hammer]",
+    "Level2": "True",
+    "Rows": [
+        {
+            "CurrentFile": "Crafting-D_ProcessorRecipes.json",
+            "Defaults": {
+                "bForceDisableRecipe": false,
+                "Requirement": {
+                    "RowName": "None",
+                    "DataTableName": "D_Talents"
+                },
+                "SessionRequirement": {
+                    "DataTableName": "D_CharacterFlags",
+                    "RowName": "None"
+                },
+                "CharacterRequirement": {
+                    "RowName": "None",
+                    "DataTableName": "D_CharacterFlags"
+                },
+                "RequiredMillijoules": 100,
+                "RecipeSets": [],
+                "ResourceCostMultipliers": [],
+                "Inputs": [
+                    {
+                        "Element": {
+                            "RowName": "None",
+                            "DataTableName": "D_ItemsStatic"
+                        },
+                        "Count": 1,
+                        "DynamicProperties": []
+                    }
+                ],
+                "Container": {
+                    "Value": "None"
+                },
+                "ResourceInputs": [],
+                "bSelectOutputItemRandomly": false,
+                "bContainsContainer": false,
+                "ItemIconOverride": {
+                    "ItemStaticData": {
+                        "RowName": "None",
+                        "DataTableName": "D_ItemsStatic"
+                    },
+                    "ItemDynamicData": [],
+                    "ItemCustomStats": [],
+                    "CustomProperties": {
+                        "StaticWorldStats": [],
+                        "StaticWorldHeldStats": [],
+                        "Stats": [],
+                        "Alterations": [],
+                        "LivingItemSlots": []
+                    },
+                    "DatabaseGUID": "",
+                    "ItemOwnerLookupId": -1,
+                    "RuntimeTags": {
+                        "GameplayTags": []
+                    }
+                },
+                "Outputs": [
+                    {
+                        "Element": {
+                            "RowName": "None",
+                            "DataTableName": "D_ItemTemplate"
+                        },
+                        "Count": 1,
+                        "DynamicProperties": [],
+                        "Alterations": []
+                    }
+                ],
+                "ResourceOutputs": [],
+                "Refundable": "Inherit",
+                "ExperienceMultiplier": 1,
+                "Audio": {
+                    "RowName": "None",
+                    "DataTableName": "D_CraftingAudioData"
+                }
+            },
+            "File_Items": [
+                {
+                    "Name": "DarkDante_Hammer",
+                    "Requirement": {
+                        "RowName": "Building_RepairTool"
+                    },
+                    "RecipeSets": [
+                        {
+                            "RowName": "Character",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stick",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 6,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DarkDante_Hammer",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": [
+                                {
+                                    "RowName": "Repair_Time_2",
+                                    "DataTableName": "D_Alterations"
+                                }
+                            ]
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    },
+                    "RequiredMillijoules": 1
+                },
+                {
+                    "Name": "DarkDante_Pickaxe",
+                    "Requirement": {
+                        "RowName": "Stone_Pickaxe"
+                    },
+                    "RecipeSets": [
+                        {
+                            "RowName": "Character",
+                            "DataTableName": "D_RecipeSets"
+                        }
+                    ],
+                    "ResourceCostMultipliers": [
+                        {
+                            "Value": "BaseMiningEquipmentCraftingCost_+%"
+                        },
+                        {
+                            "Value": "BasePickaxeCraftingCost_+%"
+                        }
+                    ],
+                    "Inputs": [
+                        {
+                            "Element": {
+                                "RowName": "Fiber",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 10,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stick",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 4,
+                            "DynamicProperties": []
+                        },
+                        {
+                            "Element": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Count": 6,
+                            "DynamicProperties": []
+                        }
+                    ],
+                    "Outputs": [
+                        {
+                            "Element": {
+                                "RowName": "DarkDante_Pickaxe",
+                                "DataTableName": "D_ItemTemplate"
+                            },
+                            "Count": 1,
+                            "DynamicProperties": [],
+                            "Alterations": []
+                        }
+                    ],
+                    "Audio": {
+                        "RowName": "Default"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemsStatic.json",
+            "File_Items": [
+                {
+                    "Name": "DarkDante_Pickaxe",
+                    "Meshable": {
+                        "RowName": "Mesh_Scyther_Pickaxe"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_DarkDante_Pickaxe"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Melee_1H_Pickaxe_Platinum"
+                    },
+                    "Usable": {
+                        "RowName": "Repair"
+                    },
+                    "Durable": {
+                        "RowName": "DarkDante_Pickaxe"
+                    },
+                    "Floatable": {
+                        "RowName": "Items"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "InventoryContainer": {
+                        "RowName": "Pickaxe_Attachment"
+                    },
+                    "ToolDamage": {
+                        "RowName": "DarkDante_Pickaxe"
+                    },
+                    "Audio": {
+                        "RowName": "Metal_Pickaxe"
+                    },
+                    "AdditionalStats": {
+                        "(Value=\"BaseMovementSpeed_+%\")": 200,
+                        "(Value=\"BaseHealthRegen_+%\")": 2000,
+                        "(Value=\"BaseItemWear_+%\")": -100,
+                        "(Value=\"BaseMiningRadius_+%\")": 100,
+                        "(Value=\"BaseMiningRewards_%\")": 50,
+                        "(Value=\"BaseStaminaActionCost_+%\")": -100
+                    },
+                    "Attachments": {
+                        "RowName": "Tool_Attachment_Attack_Speed_2",
+                        "DataTableName": "D_IcarusAttachments"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Tool.Pickaxe.T1"
+                            },
+                            {
+                                "TagName": "Item.Tool.Pickaxe.T2"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Tool.Pickaxe.T1"
+                            },
+                            {
+                                "TagName": "Item.Tool.Pickaxe.T2"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Durable"
+                            },
+                            {
+                                "TagName": "Traits.Floatable"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                },
+                {
+                    "Name": "DarkDante_Hammer",
+                    "Meshable": {
+                        "RowName": "Mesh_Rock_Golem_Sledgehammer"
+                    },
+                    "Itemable": {
+                        "RowName": "Item_DarkDante_Hammer"
+                    },
+                    "Interactable": {
+                        "RowName": "Item"
+                    },
+                    "Focusable": {
+                        "RowName": "Focusable_1H"
+                    },
+                    "Highlightable": {
+                        "RowName": "Generic"
+                    },
+                    "Actionable": {
+                        "RowName": "Building_Hammer"
+                    },
+                    "Usable": {
+                        "RowName": "Repair"
+                    },
+                    "Durable": {
+                        "RowName": "DarkDante_Hammer"
+                    },
+                    "Decayable": {
+                        "RowName": "Decay_General"
+                    },
+                    "InventoryContainer": {
+                        "RowName": "Hammer_Attachment"
+                    },
+                    "Audio": {
+                        "RowName": "RepairToolMetal"
+                    },
+                    "AdditionalStats": {
+                        "(Value=\"BaseMovementSpeed_+%\")": 200,
+                        "(Value=\"BaseChanceToRepairBuildingInstantly_+%\")": 200,
+                        "(Value=\"BaseHealthRegen_+%\")": 25000,
+                        "(Value=\"BaseRepairHammerItemWear_+%\")": -100,
+                        "(Value=\"BaseStaminaActionCost_+%\")": -100
+                    },
+                    "Attachments": {
+                        "RowName": "Item_Hammer_Attachment_Repair_2",
+                        "DataTableName": "D_IcarusAttachments"
+                    },
+                    "Manual_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Tool.Building.Repair"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Tool.Building.Upgrade"
+                            }
+                        ]
+                    },
+                    "Generated_Tags": {
+                        "GameplayTags": [
+                            {
+                                "TagName": "Item.Tool.Building.Repair"
+                            },
+                            {
+                                "TagName": "Item.Meta"
+                            },
+                            {
+                                "TagName": "Item.Tool.Building.Upgrade"
+                            },
+                            {
+                                "TagName": "Traits.Meshable"
+                            },
+                            {
+                                "TagName": "Traits.Itemable"
+                            },
+                            {
+                                "TagName": "Traits.Interactable"
+                            },
+                            {
+                                "TagName": "Traits.Highlightable"
+                            },
+                            {
+                                "TagName": "Traits.Actionable"
+                            },
+                            {
+                                "TagName": "Traits.Usable"
+                            },
+                            {
+                                "TagName": "Traits.Durable"
+                            },
+                            {
+                                "TagName": "Traits.Floatable"
+                            }
+                        ],
+                        "ParentTags": []
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Items-D_ItemTemplate.json",
+            "File_Items": [
+                {
+                    "Name": "DarkDante_PickAxe",
+                    "ItemStaticData": {
+                        "RowName": "DarkDante_PickAxe"
+                    }
+                },
+                {
+                    "Name": "DarkDante_Hammer",
+                    "ItemStaticData": {
+                        "RowName": "DarkDante_Hammer"
+                    }
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Tools-D_ToolDamage.json",
+            "File_Items": [
+                {
+                    "Name": "DarkDante_Pickaxe",
+                    "Melee_Damage": 300,
+                    "DamageVariationPercentage": 10,
+                    "Mining_Radius": 300,
+                    "Mining_Efficiency": 2
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Itemable.json",
+            "File_Items": [
+                {
+                    "Name": "Item_DarkDante_Hammer",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Hammer-DisplayName\", \"Oathbound Hammer\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Rock_Golem_Sledgehammer.T_ITEM_Rock_Golem_Sledgehammer",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Hammer-Description\", \"Forged in the heart of a forgotten forge and imbued with an ancient, otherworldly power, the Oathbound Hammer stands as a symbol of unyielding strength and unparalleled craftsmanship.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Hammer-FlavorText\", \"The Oathbound Hammer glows faintly with an ominous, pulsing light, its head carved with intricate runes that shift and shimmer when viewed from the corner of the eye.\")",
+                    "Weight": 500
+                },
+                {
+                    "Name": "Item_DarkDante_Pickaxe",
+                    "DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Pickaxe-DisplayName\", \"Shatterspike\")",
+                    "Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Scyther_Pickaxe.T_ITEM_Scyther_Pickaxe",
+                    "Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Pickaxe-Description\", \"Forged in the heart of an ancient volcanic forge, Shatterspike is no ordinary tool—it is a weapon of legends, whispered of by miners and adventurers alike.\")",
+                    "FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Pickaxe-FlavorText\", \"Legends claim Shatterspike was crafted by a forgotten race who revered the earth as both a giver of life and a crucible of destruction.\")",
+                    "Weight": 500
+                }
+            ]
+        },
+        {
+            "CurrentFile": "Traits-D_Durable.json",
+            "File_Items": [
+                {
+                    "Name": "DarkDante_Pickaxe",
+                    "Max_Durability": 200000,
+                    "ItemsForRepair": [
+                        {
+                            "Item": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Amount": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "DarkDante_Hammer",
+                    "Max_Durability": 200000,
+                    "ItemsForRepair": [
+                        {
+                            "Item": {
+                                "RowName": "Stone",
+                                "DataTableName": "D_ItemsStatic"
+                            },
+                            "Amount": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "CurrentFile": "EndOfMod"
+        }
+    ]
+}
