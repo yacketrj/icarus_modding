@@ -1,0 +1,17 @@
+{
+  "mods": [
+    {
+      "name": "DarkDants_Wicked_PickAxe_and_Hammer",
+      "author": "Unknown",
+      "version": "0.1",
+      "week": "",
+      "compatibility": "ALL",
+      "description": "The mod contains new PickAxe [Shatterspike] and Repair Tool [Oathbound Hammer]",
+      "imageURL": "",
+      "readmeURL": "https://github.com/yacketrj/icarus_modding/blob/main/DarkDants_Wicked_PickAxe_and_Hammer/DarkDants_Wicked_PickAxe_and_Hammer.txt",
+      "files": {
+          "exmodz": "https://github.com/yacketrj/icarus_modding/blob/main/DarkDants_Wicked_PickAxe_and_Hammer.EXMODZ"
+      }
+    }
+   ]
+ }
