@@ -178,7 +178,7 @@
 		{
 			"Name": "DarkDante_Pickaxe",
 			"Meshable": {
-				"RowName": "Mesh_Metal_Pickaxe"
+				"RowName": "Mesh_Scyther_Pickaxe"
 			},
 			"Itemable": {
 				"RowName": "Item_DarkDante_Pickaxe"
@@ -218,11 +218,11 @@
 			},
 			"AdditionalStats": {
 				"(Value=\"BaseMovementSpeed_+%\")": 200,
-				"(Value=\"BaseHealthRegen_+%\")": 25000,
-				"(Value=\"BasePickaxeItemWear_+%\")": -100,
+				"(Value=\"BaseHealthRegen_+%\")": 2000,
+				"(Value=\"BaseItemWear_+%\")": -100,
 				"(Value=\"BaseMiningRadius_+%\")": 100,
 				"(Value=\"BaseMiningRewards_%\")": 50,
-				"(Value=\"BasePickaxeStaminaActionCost_+%\")": -100
+				"(Value=\"BaseStaminaActionCost_+%\")": -100
 			},
 			"Attachments": {
 				"RowName": "Tool_Attachment_Attack_Speed_2",
@@ -271,7 +271,7 @@
 		{
 			"Name": "DarkDante_Hammer",
 			"Meshable": {
-				"RowName": "Mesh_Steel_Hammer"
+				"RowName": "Mesh_Rock_Golem_Sledgehammer"
 			},
 			"Itemable": {
 				"RowName": "Item_DarkDante_Hammer"
@@ -306,8 +306,8 @@
 			"AdditionalStats": {
 				"(Value=\"BaseMovementSpeed_+%\")": 200,
 				"(Value=\"BaseChanceToRepairBuildingInstantly_+%\")": 200,
-				"(Value=\"BaseHealthRegen_+%\")": 25000,
-				"(Value=\"BaseRepairHammerItemWear_+%\")": -100,
+				"(Value=\"BaseHealthRegen_+%\")": 2000,
+				"(Value=\"BaseItemWear_+%\")": -100,
 				"(Value=\"BaseStaminaActionCost_+%\")": -100
 			},
 			"Attachments": {

@@ -15,17 +15,17 @@
 		{
 			"Name": "Item_DarkDante_Hammer",
 			"DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Hammer-DisplayName\", \"Oathbound Hammer\")",
-			"Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/ITEM_Titanium_Hammer.ITEM_Titanium_Hammer",
-			"Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Hammer-Description\", \"This sinister weapon exudes an aura of malice, forged in the darkest forges of the underworld.\")",
-			"FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Hammer-FlavorText\", \"Its once-gleaming steel head is now stained with the blood of countless victims, its surface etched with twisted, jagged runes that pulse with a cold, malevolent energy.\")",
+			"Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Rock_Golem_Sledgehammer.T_ITEM_Rock_Golem_Sledgehammer",
+			"Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Hammer-Description\", \"Forged in the heart of a forgotten forge and imbued with an ancient, otherworldly power, the Oathbound Hammer stands as a symbol of unyielding strength and unparalleled craftsmanship.\")",
+			"FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Iron_Hammer-FlavorText\", \"This legendary tool can only be crafted by those who have unlocked the secrets of the Stone Pickaxe, a rite of passage for any adventurer daring to wield such a mighty artifact.\r\n\")",
 			"Weight": 500
 		},
 		{
 			"Name": "Item_DarkDante_Pickaxe",
 			"DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Pickaxe-DisplayName\", \"Shatterspike\")",
 			"Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITEM_Scyther_Pickaxe.T_ITEM_Scyther_Pickaxe",
-			"Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Pickaxe-Description\", \"Forged in the depths of cursed mines, it emanates an unnatural hum, like a whisper from forgotten souls.\")",
-			"FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Pickaxe-FlavorText\", \"The Doomspike Pickaxe is a twisted weapon of dark magic, its jagged, obsidian head pulsing with an eerie red glow.\")",
+			"Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Pickaxe-Description\", \"Forged in the heart of an ancient volcanic forge, Shatterspike is no ordinary tool—it is a weapon of legends, whispered of by miners and adventurers alike.\")",
+			"FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Pickaxe-FlavorText\", \"The obsidian-black head gleams faintly in the dark, etched with runes that pulse with an eerie, green light, as though alive with an ancient and restless power.\")",
 			"Weight": 500
 		},
 		{
