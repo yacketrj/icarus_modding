@@ -129,12 +129,7 @@
                             },
                             "Count": 1,
                             "DynamicProperties": [],
-                            "Alterations": [
-                                {
-                                    "RowName": "Repair_Time_2",
-                                    "DataTableName": "D_Alterations"
-                                }
-                            ]
+                            "Alterations": []
                         }
                     ],
                     "Audio": {
@@ -195,7 +190,20 @@
                             },
                             "Count": 1,
                             "DynamicProperties": [],
-                            "Alterations": []
+                            "Alterations": [
+                                {
+                                    "RowName": "Attacks_Cause_Shock_1",
+                                    "DataTableName": "D_Alterations"
+                                },
+                                {
+                                    "RowName": "Attacks_Cause_Bleed_1",
+                                    "DataTableName": "D_Alterations"
+                                },
+                                {
+                                    "RowName": "Attacks_Cause_Poison_1",
+                                    "DataTableName": "D_Alterations"
+                                }
+                            ]
                         }
                     ],
                     "Audio": {
@@ -253,7 +261,7 @@
                         "(Value=\"BaseHealthRegen_+%\")": 2000,
                         "(Value=\"BaseItemWear_+%\")": -100,
                         "(Value=\"BaseMiningRadius_+%\")": 100,
-                        "(Value=\"BaseMiningRewards_%\")": 50,
+                        "(Value=\"BaseMiningRewards_%\")": 100,
                         "(Value=\"BaseStaminaActionCost_+%\")": -100
                     },
                     "Attachments": {
@@ -344,7 +352,7 @@
                     "AdditionalStats": {
                         "(Value=\"BaseMovementSpeed_+%\")": 200,
                         "(Value=\"BaseChanceToRepairBuildingInstantly_+%\")": 200,
-                        "(Value=\"BaseHealthRegen_+%\")": 25000,
+                        "(Value=\"BaseHealthRegen_+%\")": 2000,
                         "(Value=\"BaseRepairHammerItemWear_+%\")": -100,
                         "(Value=\"BaseStaminaActionCost_+%\")": -100
                     },
