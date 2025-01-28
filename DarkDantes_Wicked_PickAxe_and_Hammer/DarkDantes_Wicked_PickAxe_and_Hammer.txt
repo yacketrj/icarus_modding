@@ -1,6 +1,6 @@
 DarkDants Wicked PickAxe and Hammer
 =====
-Version 0.1
+Version 0.2
 =====
 Supports all Versions of Icarus
 =====
