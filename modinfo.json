@@ -1,19 +1,16 @@
-# modinfo.json File Template v2
-
-```json
 {
-  "mods": [
-    {
-      "name": "DarkDantes Wicked PickAxe and Hammer",
-      "author": "DarkDante",
-      "version": ".3",
-      "compatibility": "all",
-      "description": "Mod contains new PickAxe [Shatterspike] and Repair Tool [Oathbound Hammer]",
-      "files": {
-        "pak": "https://github.com/yacketrj/icarus_modding/blob/main/DarkDantes_Wicked_PickAxe_and_Hammer%20_P.pak",
-        "exmodz": "https://github.com/yacketrj/icarus_modding/blob/main/DarkDantes_Wicked_PickAxe_and_Hammer.EXMODZ"
-      },
-      "readmeURL": "https://github.com/yacketrj/icarus_modding/blob/main/DarkDantes_Wicked_PickAxe_and_Hammer/Readme.txt"
-    }
-  ]
+    "mods": [
+        {
+            "name": "DarkDantes Wicked PickAxe and Hammer",
+            "author": "DarkDante",
+            "version": "0.3",
+            "compatibility": "all",
+            "description": "Mod contains new PickAxe [Shatterspike] and Repair Tool [Oathbound Hammer]",
+            "files": {
+                "pak": "https://github.com/yacketrj/icarus_modding/blob/main/DarkDantes_Wicked_PickAxe_and_Hammer%20_P.pak",
+                "exmodz": "https://github.com/yacketrj/icarus_modding/blob/main/DarkDantes_Wicked_PickAxe_and_Hammer.EXMODZ"
+            },
+            "readmeURL": "https://github.com/yacketrj/icarus_modding/blob/main/DarkDantes_Wicked_PickAxe_and_Hammer/Readme.txt"
+        }
+    ]
 }

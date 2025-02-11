@@ -22,10 +22,10 @@
 		},
 		{
 			"Name": "Item_DarkDante_Pickaxe",
-			"DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Pickaxe-DisplayName\", \"Shatterspike\")",
-			"Icon": "/Game/Assets/2DArt/UI/Items/Item_Icons/Tools/T_ITM_Pickaxe_DarkDante.T_ITM_Pickaxe_DarkDante",
-			"Description": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Pickaxe-Description\", \"Forged in the heart of an ancient volcanic forge, Shatterspike is no ordinary tool—it is a weapon of legends, whispered of by miners and adventurers alike.\")",
-			"FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_Metal_Pickaxe-FlavorText\", \"The obsidian-black head gleams faintly in the dark, etched with runes that pulse with an eerie, green light, as though alive with an ancient and restless power.\")",
+			"DisplayName": "NSLOCTEXT(\"D_Itemable\", \"Item_DarkDante_Pickaxe-DisplayName\", \"Shatterspike\")",
+			"Icon": "/Game/DarkDante/DarkDantes_Wicked_PickAxe_and_Hammer/Icons/T_ITM_WarPick_DarkDante.T_ITM_WarPick_DarkDante",
+			"Description": "NSLOCTEXT(\"D_Itemable\", \"Item_DarkDante_Pickaxe-Description\", \"Forged in the heart of an ancient volcanic forge, Shatterspike is no ordinary tool—it is a weapon of legends, whispered of by miners and adventurers alike.\")",
+			"FlavorText": "NSLOCTEXT(\"D_Itemable\", \"Item_DarkDante_Pickaxe-FlavorText\", \"The obsidian-black head gleams faintly in the dark, etched with runes that pulse with an eerie, green light, as though alive with an ancient and restless power.\")",
 			"Weight": 500
 		},
 		{

@@ -15,15 +15,14 @@
     "Rows": [
         {
             "Name": "Mesh_DarkDante_Hammer",
-            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_BuildingHammer.BP_SkeletalItem_BuildingHammer_C",
-            "EquipHandMesh": "/Game/DarkDante/DarkDantes_Wicked_PickAxe_and_Hammer/Meshes/SK_ITM_Hammer_DarkDante.SK_ITM_Hammer_DarkDante",
-            "ItemMesh": "/Game/DarkDante/DarkDantes_Wicked_PickAxe_and_Hammer/Meshes/SK_ITM_Hammer_DarkDante.SK_ITM_Hammer_DarkDante"
+			"EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_BuildingHammer.BP_SkeletalItem_BuildingHammer_C",
+            "EquipHandMesh": "/Game/DarkDante/DarkDantes_Wicked_PickAxe_and_Hammer/Meshes/Hammer/SK_ITM_Hammer_DarkDante.SK_ITM_Hammer_DarkDante",
+            "ItemMesh": "/Game/DarkDante/DarkDantes_Wicked_PickAxe_and_Hammer/Meshes/Hammer/SK_ITM_Hammer_DarkDante.SK_ITM_Hammer_DarkDante"
         },
         {
             "Name": "Mesh_DarkDante_Pickaxe",
-            "EquipHandActor": "/Game/BP/Objects/World/Items/Weapons/BP_SkeletalItem_BuildingHammer.BP_SkeletalItem_BuildingHammer_C",
-            "EquipHandMesh": "/Game/DarkDante/DarkDantes_Wicked_PickAxe_and_Hammer/Meshes/SK_ITM_Pickaxe_DarkDante.SK_ITM_Pickaxe_DarkDante",
-            "ItemMesh": "/Game/DarkDante/DarkDantes_Wicked_PickAxe_and_Hammer/Meshes/SK_ITM_Pickaxe_DarkDante.SK_ITM_Pickaxe_DarkDante"
+            "EquipHandMesh": "/Game/DarkDante/DarkDantes_Wicked_PickAxe_and_Hammer/Meshes/WarPick/SK_ITM_WarPick_DarkDante.SK_ITM_WarPick_DarkDante",
+            "ItemMesh": "/Game/DarkDante/DarkDantes_Wicked_PickAxe_and_Hammer/Meshes/WarPick/SK_ITM_WarPick_DarkDante.SK_ITM_WarPick_DarkDante"
         },		
         {
             "EquipHandMesh": "/Game/Assets/3DArt/Interactables/Items/DummyCube/SK_dummy_cube.SK_dummy_cube",
